@@ -1,0 +1,55 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	padding: 10px 10px 10px 10px
+}
+
+
+
+table#TablaUsuario {
+	background: #FFB;
+	border: 1px solid #F00;
+}
+table#TablaNotas {
+	background: #FFB;
+	border: 1px solid #0F0;
+}
+thead {
+	background: #DDD;
+}
+th {
+	border-bottom: 3px solid #000;
+	width: 200px;
+}
+.notas {
+	text-align: right;
+}
+
+
+form {
+	border: 1px #ddd;
+}
+
+input {
+	width: 150px;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}
+
+.btn {
+	width: 77px;
+	padding: 10px 10px;
+	margin-left: 10px;
+}
+
+.btn-primary {
+	background: #55f;
+	color: #fff;
+}
+
+
+div35 {
+	border: 1px solid #EEE;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="light">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>PelisVen</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+      <link rel="stylesheet" href="reproduccion.css">
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="./css/css@3.css">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    
+   
+    <meta name="theme-color" content="#712cf9">
+         
+   <!-- Custom styles for this template -->
+    <link href="./index_files/sticky-footer-navbar.css" rel="stylesheet">
+   <script>
+
+function megusta() {
+  
+           alert("le a dado me gusta" );
+
+            }
+
+
+            function meencanta() {
+  
+  alert("le a dado me encanta" );
+
+}
+
+
+function medivierte() {
+  
+  alert("le a dado me divierte" );
+
+   }
+   </script>
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">PelisVen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse show" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Series</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Novelas</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- INICIO DEL TU AREA DE TRABAJO -->
+    <main class="flex-shrink-0">
+      <div class="container">
+        <!-- ACA DENTRO DEL CONTAINER -->
+
+        
+<!-- Button trigger modal -->
+<center>
+<button class="bo" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <div id="disco"></div>
+ 
+</button>
+<button class="btn btn-primary " onclick="megusta()">
+  <i class="fas fa-thumbs-up"></i>
+  Me gusta
+</button>
+<button class="btn btn-danger" onclick="meencanta()">
+  <i class="fas fa-heart"></i>
+  Me encanta
+</button>
+<button class="btn btn-warning" onclick="medivierte()">
+  <i class="fas fa-laugh-squint"></i>
+  Me divierte
+</button>
+</center>
+<br>
+<br>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content"  style="height: 300px; width: 500px; align-items: center; background-color: transparent;">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body " ">
+     <video style="width:45; height:240; text-align: end;" src="rune.mp4"    controls autoplay ></video> 
+      </div>
+      </div>
+  </div>
+</div>
+
+        <!-- HASTA ACA DENTRO DEL CONTAINER -->
+      </div>
+    </main>
+
+
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li class="list-unstyled"><b>PelisVen</b></li>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="index.html">Peliculas</a></li>
+              <li><a href="index.html">Series</a></li>
+              <li><a href="index.html">Novelas</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li class="list-unstyled"><b>Categorías</b></li>
+              <li><a href="index.html">Drama</a></li>
+              <li><a href="index.html">Acción</a></li>
+              <li><a href="index.html">Comedias</a></li>
+              <li><a href="index.html">Cultural</a></li>
+              <li><a href="index.html">Documental</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li class="list-unstyled"><b>Redes Sociales</b></li>
+              <li><a href="index.html">X</a></li>
+              <li><a href="index.html">Ig</a></li>
+              <li><a href="index.html">TT</a></li>
+              <li><a href="index.html">Yt</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li class="list-unstyled"><b>Apoyo</b></li>
+              <li><a href="quienes.html">Quienes Somos</a></li>
+              <li><a href="ayuda.html">Ayuda</a></li>
+              <li><a href="planes.html">Planes</a></li>
+              <li><a href="terminos.html">Términos de Uso</a></li>
+              <li><a href="politicas.html">Políticas de Privacidad</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+      </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
