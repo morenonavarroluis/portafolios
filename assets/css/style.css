@@ -3,7 +3,7 @@
             scroll-behavior: smooth;
         }
         .hero-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #dce5ff 0%, #002eff  100%);
             min-height: 100vh;
         }
         .fade-in {
