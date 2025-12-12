@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
-    <nav class="fixed top-0 w-full bg-white shadow-md z-50 py-4  bg-opacity-5 backdrop-blur-md">
+    <nav class="fixed top-0 w-full  bg-white shadow-md z-50 py-4  bg-opacity-5 backdrop-blur-md">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <h1 class="text-2xl font-bold text-black-800">My Portfolio</h1>
             <ul class="flex space-x-6 text-gray-600">
@@ -18,7 +18,7 @@
                 <li><a href="#about" class="nav-link text-black-800">About</a></li>
                 <li><a href="#skills" class="nav-link text-black-800">Skills</a></li>
                 <li><a href="#projects" class="nav-link text-black-800">Projects</a></li>
-                <li><a href="#contact" class="text-black-800">Contact</a></li>
+                <li><a href="#contact" class="nav-link  text-black-800">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -54,146 +54,154 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-gray-100">
-        <div class="container mx-auto px-6">
-            <h3 class="text-4xl font-bold text-gray-800 mb-10 text-center">My Skills</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="skill-card bg-white p-6 rounded-lg shadow-lg">
-                    <h4 class="text-xl font-semibold mb-4">Frontend</h4>
-                    <div class="space-y-2">
-                        <div class="skill-item">
-                            <i class="fab fa-html5 skill-icon text-orange-500"></i>
-                            <div class="flex-1">
-                                <span>HTML</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-4/5"></div>
-                                </div>
-                            </div>
+<section id="skills" class="py-24 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h3 class="text-4xl font-extrabold text-gray-900 mb-4">My Skills</h3>
+            <div class="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-3 bg-blue-50 rounded-xl">
+                        <i class="fas fa-laptop-code text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Frontend</h4>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-html5 text-orange-500 w-5"></i> HTML5
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-orange-500">80%</span>
                         </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3-alt skill-icon text-blue-500"></i>
-                            <div class="flex-1">
-                                <span>CSS</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-4/5"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js-square skill-icon text-yellow-500"></i>
-                            <div class="flex-1">
-                                <span>JavaScript</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-5/6"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-react skill-icon text-cyan-500"></i>
-                            <div class="flex-1">
-                                <span>React</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-3/4"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3 skill-icon text-teal-500"></i>
-                            <div class="flex-1">
-                                <span>Tailwind CSS</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-4/5"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-git skill-icon text-orange-600"></i>
-                            <div class="flex-1">
-                                <span>Git</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-4/5"></div>
-                                </div>
-                            </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-orange-500 h-2 rounded-full transition-all duration-1000" style="width: 80%"></div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-card bg-white p-6 rounded-lg shadow-lg">
-                    <h4 class="text-xl font-semibold mb-4">Backend</h4>
-                    <div class="space-y-2">
-                        <div class="skill-item">
-                            <i class="fab fa-node-js skill-icon text-green-500"></i>
-                            <div class="flex-1">
-                                <span>Node.js</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-4/5"></div>
-                                </div>
-                            </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-css3-alt text-blue-500 w-5"></i> CSS3
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-blue-500">50%</span>
                         </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python skill-icon text-blue-600"></i>
-                            <div class="flex-1">
-                                <span>Python</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-3/4"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code skill-icon text-green-600"></i>
-                            <div class="flex-1">
-                                <span>Django</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-2/3"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-linux skill-icon text-black"></i>
-                            <div class="flex-1">
-                                <span>Linux</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-3/4"></div>
-                                </div>
-                            </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-blue-500 h-2 rounded-full transition-all duration-1000" style="width: 50%"></div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-card bg-white p-6 rounded-lg shadow-lg">
-                    <h4 class="text-xl font-semibold mb-4">Design</h4>
-                    <div class="space-y-2">
-                        <div class="skill-item">
-                            <i class="fas fa-palette skill-icon text-purple-500"></i>
-                            <div class="flex-1">
-                                <span>UI/UX</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-5/6"></div>
-                                </div>
-                            </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-js text-yellow-500 w-5"></i> JavaScript
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-yellow-600">40%</span>
                         </div>
-                        <div class="skill-item">
-                            <i class="fab fa-figma skill-icon text-pink-500"></i>
-                            <div class="flex-1">
-                                <span>Figma</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-4/5"></div>
-                                </div>
-                            </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-yellow-400 h-2 rounded-full transition-all duration-1000" style="width: 40%"></div>
                         </div>
-                        <div class="skill-item">
-                            <i class="fab fa-adobe skill-icon text-red-500"></i>
-                            <div class="flex-1">
-                                <span>Photoshop</span>
-                                <div class="w-full bg-gray-200 rounded-full h-2 mt-1">
-                                    <div class="skill-bar w-3/5"></div>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-react text-cyan-500 w-5"></i> React
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-cyan-500">25%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-cyan-500 h-2 rounded-full transition-all duration-1000" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-css3 text-teal-500 w-5"></i> Tailwind CSS
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-teal-500">50%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-teal-500 h-2 rounded-full transition-all duration-1000" style="width: 50%"></div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-3 bg-indigo-50 rounded-xl">
+                        <i class="fas fa-server text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Backend</h4>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-php text-indigo-500 w-5"></i> PHP
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-indigo-500">60%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-indigo-500 h-2 rounded-full" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-python text-blue-600 w-5"></i> Python
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-blue-600">70%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-blue-600 h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fas fa-code text-emerald-500 w-5"></i> Django
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-emerald-500">75%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-emerald-500 h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fab fa-linux text-gray-800 w-5"></i> Linux
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-gray-800">70%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-gray-800 h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-2">
+                            <span class="flex items-center gap-2 font-semibold text-gray-700">
+                                <i class="fas fa-database text-blue-400 w-5"></i> MySQL
+                            </span>
+                            <span class="text-sm font-bold text-gray-400 group-hover:text-blue-400">60%</span>
+                        </div>
+                        <div class="w-full bg-gray-100 rounded-full h-2">
+                            <div class="bg-blue-400 h-2 rounded-full" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Projects Section -->
     <section id="projects" class="py-20 bg-white">
@@ -201,11 +209,11 @@
             <h3 class="text-4xl font-bold text-gray-800 mb-10 text-center">My Projects</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="project-card bg-gray-100 rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5eb90152-65b9-4cd3-9890-d6e7883d5f82.png" alt="Screenshot of a modern e-commerce website with fashion products arranged in a clean grid, highlighted buy buttons, minimalist design with blue colors and gold accents" class="w-full h-48 object-cover" />
+                    <img src="assets/img/intranet.png" alt="Screenshot of a modern e-commerce website with fashion products arranged in a clean grid, highlighted buy buttons, minimalist design with blue colors and gold accents" class="w-full h-48 object-cover" />
                     <div class="p-6">
-                        <h4 class="text-xl font-semibold mb-2">Elegant Online Store</h4>
-                        <p class="text-gray-600 mb-4">An online retail platform with responsive design and secure payments.</p>
-                        <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition">View Project</a>
+                        <h4 class="text-xl font-semibold mb-2">Intranet</h4>
+                        <p class="text-gray-600 mb-4">plataforma de corporativa</p>
+                        <a href="https://manuel.pythonanywhere.com/" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition">View Project</a>
                     </div>
                 </div>
                 <div class="project-card bg-gray-100 rounded-lg overflow-hidden shadow-lg">
@@ -217,11 +225,11 @@
                     </div>
                 </div>
                 <div class="project-card bg-gray-100 rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/651d0438-2863-4464-b84b-59aaa3b6b112.png" alt="Preview of an admin dashboard with circular and bar graphs for statistics, organized panels with data icons in a modern dark theme with purple accents" class="w-full h-48 object-cover" />
+                    <img src="assets/img/analis.png" class="w-full h-48 object-cover" />
                     <div class="p-6">
                         <h4 class="text-xl font-semibold mb-2">Analytics Dashboard</h4>
                         <p class="text-gray-600 mb-4">An advanced reporting system with interactive visualizations and exports.</p>
-                        <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition">View Project</a>
+                        <a href="analytics-dashboard.html/index.html" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition">View Project</a>
                     </div>
                 </div>
             </div>
